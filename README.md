@@ -33,54 +33,6 @@ A simple note-taking web application that allows users to create, save, and mana
 - **Bootstrap**: CSS framework for responsive, mobile-first design.
 
 ---
-
-## Installation
-
-### Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- **Node.js** (>= 14.x)
-- **MongoDB** (or use MongoDB Atlas for cloud hosting)
-- **Git** (optional, for version control)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/HarshYadav152/notebook.git
-```
-### 2. Install Dependencies
-
-Navigate to the project directory and install the required dependencies:
-
-<!-- Copy code -->
-```bash
-cd notebook-web-app
-npm install
-```
-### 3. Set Up Environment Variables
-Create a .env file in the root of your project and add the following variables:
-
-env
-Copy code
-```bash
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-```
-- __MONGO_URI:__ The connection string for your MongoDB database (use MongoDB Atlas for cloud-hosted databases).
-- __JWT_SECRET:__ A secret key for encoding and decoding JWT tokens. Keep this secret safe!
-### 4. Run the App
-Start the server:
-
-```bash
-# Copy code
-npm run dev 
-```
-`for vite app`
-
-This will start the backend server on port 5000 (or the port specified in your .env file).
-
 ## Usage
 ### User Signup:
 
@@ -105,26 +57,9 @@ This will start the backend server on port 5000 (or the port specified in your .
 ## Contributing
 If you would like to contribute to the development of this app, please fork the repository, create a new branch, and submit a pull request with your changes.
 
-### Fork the repository.
-`Clone your fork:`
-``` bash
-git clone https://github.com/HarshYadav152/notebook.git
-```
-`Create a new branch:`
-```bash
-git checkout -b feature-branch
-```
-Make your changes and commit them.
-
-`Push to your fork:`
-```bash
-git push origin feature-branch
-```
-`Submit a pull request.`
-
 `License`
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/HarshYadav152/notebook/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/HarshYadav152/notebook-backend/blob/main/LICENSE) file for details.
 
 `Acknowledgements`
 
